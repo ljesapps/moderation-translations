@@ -1,0 +1,16 @@
+{
+  "name": "ljesapps/moderation-translations",
+  "license": "proprietary",
+  "type": "project",
+  "description": "Translations resources for moderation site",
+  "minimum-stability": "dev",
+  "autoload": {
+    "psr-0": {"": "src/"}
+  },
+  "authors": [
+    {
+      "name": "Pavel Batanov",
+      "email": "pavel@batanov.me"
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+Yes: Да
+No: Нет
+
+widget:
+  pending_stories:
+    applictions: Приложения
+    pending: Ожидает проверки
+    stats: Статистика
+
+pager:
+  first: Первая
+  last: Последняя
+  next: След.
+  prev: Пред.
+
+filter:
+  categories: Категория
+  status: Состояние
+  status_any: Любое
+  page_size: На странице
+  story_per_page: '%count% история|%count% истории|%count% историй'
+  update: Применить
+
+form:
+  story_type:
+    save: Сохранить истории
+    skip: Пропустить
+    image:
+      accept: Принять картинку
+    reason:
+      syntax: Синтаксические ошибки
+      grammar: Грамматические ошибки
+      lexic: Лексические ошибки
+      not_acceptable: Неподходящее содержание
+      not_finished: История не завершена
+      copyright: Нарушение авторских прав
+      removed: Удалена
+      accepted: Принята
+      rejected: Отклонена
+
+page:
+  login:
+    title: Вход в систему
+    username: Логин
+    password: Пароль
+    sign_in: Войти
+
+  moderate_stories:
+    header: Модерирование
+    title: Модерирование историй приложения
+
+
+story:
+  fields:
+    category: Категория
+    status: Статус
+    comment: Комментарий
+    recommend: Рекоммендовать
+  status:
+    all: Любой
+    fields: Статус
+    fresh: Свежая
+    resubmitted: Переподана
+    accepted: Принята
+    deleted: Удалена
+    rejected: Отклонена
+    0: Новая
+    1: Принята
+    2: Отклоненная
+    3: Удаленная
+  action:
+    0: Отложить
+    1: Принять
+    2: Отклонить
+    3: Удалить
