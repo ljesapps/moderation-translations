@@ -1,3 +1,9 @@
+system.name: bestApps Moderation
+
+languages:
+  incomplete: incomplete
+  absent: not translated
+
 Yes: Yes
 No: No
 

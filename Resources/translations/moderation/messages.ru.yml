@@ -1,3 +1,9 @@
+system.name: Модерка bestApps
+
+languages:
+  incomplete: не переведен
+  absent: отсутствует
+
 Yes: Да
 No: Нет
 
@@ -55,7 +61,7 @@ story:
     category: Категория
     status: Статус
     comment: Комментарий
-    recommend: Рекоммендовать
+    recommend: Рекомендовать
   status:
     all: Любой
     fields: Статус
