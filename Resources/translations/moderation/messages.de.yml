@@ -1,81 +1,81 @@
 system.name: bestApps Moderation
 
 languages:
-  incomplete: incomplete
-  absent: not translated
+  incomplete: nicht übersetzt
+  absent: fehlt
 
-Yes: Yes
-No: No
+Yes: Ja
+No: Nein
 
 widget:
   pending_stories:
-    applictions: Applications
-    pending: Pending moderation
-    stats: Statistics
+    applictions: Anwendung
+    pending: Erwartung der Moderation
+    stats: Statistik
 
 pager:
-  first: First
-  last: Last
-  next: Next
-  prev: Prev
+  first: Erste
+  last: Letzte
+  next: Nächste
+  prev: Vorhergehende
 
 filter:
-  categories: Categories
-  status: State
-  status_any: Any
-  page_size: Per page
-  story_per_page: '%count% story|%count% stories'
-  update: Apply
+  categories: Kategorie
+  status: Status
+  status_any: Beliebige
+  page_size: Auf die Seite
+  story_per_page: '%count% Geschichte|%count% Geschichten'
+  update: Verwenden
 
 form:
   story_type:
-    save: Save stories
-    skip: Skip
+    save: Speichern
+    skip: Vorbeilassen
     image:
-      accept: Accept image
+      accept: Bild akzeptieren
     reason:
-      syntax: Syntax errors
-      grammar: Grammatical errors
-      lexic: Lexical errors
-      not_acceptable: Improper content
-      not_finished: Story not finished
-      copyright: Copyright infringement
-      removed: Deleted
-      accepted: Accepted
-      rejected: Removed
+      syntax: Syntaktische Fehler
+      grammar: Grammatische Fehler
+      lexic: Lexikalische Fehler
+      not_acceptable: Unpassende Inhalt
+      not_finished: Geschichte ist nicht beendet
+      copyright: Urheberrechtsverletzung
+      removed: Entfernt
+      accepted: Akzeptiert
+      rejected: Abgelehnt
 
 page:
   login:
-    title: System login
-    username: Username
-    password: Password
-    sign_in: Sign in
+    title: Systemanmeldung
+    username: Benutzername
+    password: Passwort
+    sign_in: Anmelden
 
   moderate_stories:
     header: Moderation
-    title: Moderation application
+    title: Moderationsanwendung
 
 
 story:
   fields:
-    category: Category
+    category: Kategorie
     status: Status
-    comment: Comment
-    recommend: Recommend
+    comment: Kommentar
+    recommend: Empfehlen
   status:
-    all: Any
+    all: Beliebig
     fields: Status
-    fresh: Fresh
-    resubmitted: Resubmitted
-    accepted: Accepted
-    deleted: Deleted
-    rejected: Rejected
-    0: New
-    1: Accepted
-    2: Rejected
-    3: Deleted
+    fresh: Frische
+    resubmitted: Wiedervorgelegt
+    accepted: Akzeptiert
+    deleted: Entfernt
+    rejected: Abgelehnt
+    0: Neue
+    1: Akzeptiert
+    2: Abgelehnt
+    3: Entfernt
   action:
-    0: Defer
-    1: Accept
-    2: Reject
-    3: Remove
+    0: Aufschieben
+    1: Akzeptieren
+    2: Ablehnen
+    3: Entfernen
