@@ -4,23 +4,23 @@ languages:
   incomplete: incomplete
   absent: not translated
 
-Yes: Yes
-No: No
+Yes: да
+No: нет
 
 widget:
   pending_stories:
     applictions: Applications
     pending: Pending moderation
-    stats: Statistics
+    stats: статистика
 
 pager:
-  first: First
-  last: Last
+  first: первая
+  last: последняя
   next: Next
   prev: Prev
 
 filter:
-  categories: Categories
+  categories: категории
   status: State
   status_any: Any
   page_size: Per page
