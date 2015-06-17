@@ -2,7 +2,7 @@ system.name: bestApps Moderation
 
 languages:
   incomplete: incomplete
-  absent: not translated
+  absent: absent
 
 Yes: Yes
 No: No
