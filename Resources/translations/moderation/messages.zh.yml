@@ -1,81 +1,81 @@
-system.name: bestApps Moderation
+system.name: bestApps 審核
 
 languages:
-  incomplete: incomplete
-  absent: absent
+  incomplete: 不完全
+  absent: 缺席
 
-Yes: Yes
-No: No
+Yes: 是
+No: 無
 
 widget:
   pending_stories:
-    applictions: Applications
-    pending: Pending moderation
-    stats: Statistics
+    applictions: 應用
+    pending: 待審核
+    stats: 統計
 
 pager:
-  first: First
-  last: Last
-  next: Next
-  prev: Prev
+  first: 第一個
+  last: 最後
+  next: 下一個
+  prev: 上一頁
 
 filter:
-  categories: Categories
-  status: State
-  status_any: Any
-  page_size: Per page
-  story_per_page: '%count% story|%count% stories'
-  update: Apply
+  categories: 分類
+  status: 狀態
+  status_any: 任何
+  page_size: 每頁
+  story_per_page: '%count% 的故事|%count% 的故事'
+  update: 應用
 
 form:
   story_type:
-    save: Save stories
-    skip: Skip
+    save: 保存的故事
+    skip: 跳過
     image:
-      accept: Accept image
+      accept: 接受圖片
     reason:
-      syntax: Syntax errors
-      grammar: Grammatical errors
-      lexic: Lexical errors
-      not_acceptable: Improper content
-      not_finished: Story not finished
-      copyright: Copyright infringement
-      removed: Deleted
-      accepted: Accepted
-      rejected: Removed
+      syntax: 語法錯誤
+      grammar: 語法錯誤
+      lexic: 詞彙錯誤
+      not_acceptable: 不正確的內容
+      not_finished: 故事還沒完
+      copyright: 侵犯版權
+      removed: 刪除
+      accepted: 接受
+      rejected: 刪除
 
 page:
   login:
-    title: System login
-    username: Username
-    password: Password
-    sign_in: Sign in
+    title: 系統登錄
+    username: 用戶名
+    password: 密碼
+    sign_in: 登錄
 
   moderate_stories:
-    header: Moderation
-    title: Moderation application
+    header: 適度
+    title: 申請審核
 
 
 story:
   fields:
-    category: Category
-    status: Status
-    comment: Comment
-    recommend: Recommend
+    category: 類別
+    status: 狀態
+    comment: 評論
+    recommend: 推薦
   status:
-    all: Any
-    fields: Status
-    fresh: Fresh
-    resubmitted: Resubmitted
-    accepted: Accepted
-    deleted: Deleted
-    rejected: Rejected
-    0: New
-    1: Accepted
-    2: Rejected
-    3: Deleted
+    all: 所有
+    fields: 狀態
+    fresh: 新鮮
+    resubmitted: 重新提交
+    accepted: 接受
+    deleted: 刪除
+    rejected: 拒絕
+    0: 新
+    1: 接受
+    2: 拒絕
+    3: 刪除
   action:
-    0: Defer
-    1: Accept
-    2: Reject
-    3: Remove
+    0: 推遲
+    1: 接受
+    2: 拒絕
+    3: 刪除
