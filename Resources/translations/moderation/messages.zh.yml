@@ -24,7 +24,7 @@ filter:
   status: 狀態
   status_any: 任何
   page_size: 每頁
-  story_per_page: '％計％的故事|％計％的故事“
+  story_per_page: '%count% 的故事|%count% 的故事'
   update: 應用
 
 form:
