@@ -4,78 +4,78 @@ languages:
   incomplete: не переведен
   absent: отсутствует
 
-Yes: Да
-No: Нет
+Yes: Так
+No: Ні
 
 widget:
   pending_stories:
-    applictions: Приложения
-    pending: Ожидает проверки
+    applictions: Додатки
+    pending: Очікує перевірки
     stats: Статистика
 
 pager:
-  first: Первая
-  last: Последняя
-  next: След.
-  prev: Пред.
+  first: Початкова
+  last: Остання
+  next: Наступна
+  prev: Попередня
 
 filter:
-  categories: Категория
-  status: Состояние
-  status_any: Любое
-  page_size: На странице
-  story_per_page: '%count% история|%count% истории|%count% историй'
-  update: Применить
+  categories: Категорія
+  status: Стан
+  status_any: Будь-яке
+  page_size: На сторінці
+  story_per_page: '%count% історія|%count% історії|%count% исторій'
+  update: Застосувати
 
 form:
   story_type:
-    save: Сохранить истории
-    skip: Пропустить
+    save: Зберегти історії
+    skip: Пропустити
     image:
-      accept: Принять картинку
+      accept: Прийняти картинку
     reason:
-      syntax: Синтаксические ошибки
-      grammar: Грамматические ошибки
-      lexic: Лексические ошибки
-      not_acceptable: Неподходящее содержание
-      not_finished: История не завершена
-      copyright: Нарушение авторских прав
-      removed: Удалена
-      accepted: Принята
-      rejected: Отклонена
+      syntax: Синтаксичні помилки
+      grammar: Граматичні помилки
+      lexic: Лексичні помилки
+      not_acceptable: Не підходящий зміст
+      not_finished: Історія не завершена
+      copyright: Порушення авторских прав
+      removed: Видалена
+      accepted: Прийнята
+      rejected: Відхилена
 
 page:
   login:
-    title: Вход в систему
-    username: Логин
+    title: Вхід в систему
+    username: Логін
     password: Пароль
-    sign_in: Войти
+    sign_in: Зайти
 
   moderate_stories:
-    header: Модерирование
-    title: Модерирование историй приложения
+    header: Модерування
+    title: Модерування історій додатку
 
 
 story:
   fields:
-    category: Категория
+    category: Категорія
     status: Статус
-    comment: Комментарий
-    recommend: Рекомендовать
+    comment: Коментарій
+    recommend: Рекомендувати
   status:
-    all: Любой
+    all: Будь-який
     fields: Статус
-    fresh: Свежая
+    fresh: Свіжа
     resubmitted: Переподана
-    accepted: Принята
-    deleted: Удалена
-    rejected: Отклонена
-    0: Новая
-    1: Принята
-    2: Отклоненная
-    3: Удаленная
+    accepted: Прийнята
+    deleted: Видалена
+    rejected: Відхилена
+    0: Нова
+    1: Прийнята
+    2: Відхилена
+    3: Видалена
   action:
-    0: Отложить
-    1: Принять
-    2: Отклонить
-    3: Удалить
+    0: Відложити
+    1: Прийняти
+    2: Відхилити
+    3: Видалити
