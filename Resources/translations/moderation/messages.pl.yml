@@ -24,7 +24,7 @@ filter:
   status: Stan
   status_any: Wszystkie
   page_size: Na strone
-  story_per_page: '%count% historia|%count% historii'
+  story_per_page: '%count% historia|%count% historie|%count% historie'
   update: Zatwierdź
 
 form:
