@@ -24,7 +24,7 @@ filter:
   status: State
   status_any: Any
   page_size: Per page
-  story_per_page: '%count% story|%count% stories'
+  story_per_page: '%count% story|%count% stories|%count% stories'
   update: Apply
 
 form:
